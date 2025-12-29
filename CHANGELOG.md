@@ -1,8 +1,6 @@
 # Changelog
 
-## 0.1.0
-- Initial release
-- Memory + disk caching
-- Web support
-- Isolate decoding
-- Background prefetch
+## 0.1.1
+- Fixed Flutter 3.7+ compatibility
+- Updated FastCachedImageProvider and WebImageProvider
+

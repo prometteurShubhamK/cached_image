@@ -1,6 +1,6 @@
 name: fast_cached_image
 description: Fast Flutter network image loader with memory & disk cache, isolate decoding, prefetch, and web support.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/prometteurShubhamK/cached_image.git
 
 environment:
