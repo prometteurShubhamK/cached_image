@@ -14,7 +14,7 @@ class FastCachedImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image(
-      image: platformImageProvider(imageUrl),
+      image: FastCachedImageProvider(imageUrl),
       frameBuilder: (context, child, frame, _) {
         if (frame != null) {
           return AnimatedOpacity(
