@@ -10,7 +10,7 @@ class WebImageProvider extends ImageProvider<WebImageProvider> {
   Future<WebImageProvider> obtainKey(ImageConfiguration configuration) =>
       SynchronousFuture(this);
 
-  @override
+  
   ImageStreamCompleter load(WebImageProvider key, [ImageDecoderCallback? _]) {
     return NetworkImage(url).resolve(ImageConfiguration.empty).completer!;
   }
